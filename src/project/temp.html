@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><title>temprature conversion website</title>
+<link rel="stylesheet" href="temp.css">
+</head>  
+<body>
+    <form>
+        <h1>Temprature conversion:</h1>
+        <input type="number" id="textbox" value="0"><br>
+        <input type="radio" id="toFahrenheit" name="similar">
+        <label for="toFahrenheit">Fahrenheit → Celsius</label><br>
+        <input type="radio" id="toCelsius" name="similar">
+        <label for="toCelsius"> Celsius → Fahrenheit</label><br><br>
+        <button type="submit" id="subsub" onclick="convert(event)">submit</button><br><!--make type of submit=button that is why it doesnt work with out event.preventDefault(); -->
+       <p id="p1"></p>
+    </form>
+    
+        
+<script src="temp.js"></script>
+</body>
+</html>
